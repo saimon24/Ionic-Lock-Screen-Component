@@ -1,13 +1,13 @@
 {
-  "name": "ionic-lock-screen",
-  "version": "0.0.1",
+  "name": "ionic-simple-lockscreen",
+  "version": "0.0.2",
   "description": "A Simple Lock Screen Component",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "files": "dist",
   "scripts": {
     "ngc": "ngc",
-    "build": "rm -rf aot dist && npm run ngc",
+    "build": "rm -rf dist && npm run ngc",
     "publishPackage": "npm run build && npm publish"
   },
   "repository": {
@@ -23,12 +23,13 @@
     "@angular/compiler": "5.0.3",
     "@angular/compiler-cli": "5.0.3",
     "@angular/core": "5.0.3",
+    "@angular/forms": "^5.2.7",
     "@angular/platform-browser": "5.0.3",
     "@angular/platform-browser-dynamic": "5.0.3",
     "@types/node": "^9.4.6",
     "ionic-angular": "3.9.2",
     "rxjs": "5.5.2",
-    "zone.js": "0.8.18",
-    "typescript": "2.4.2"
+    "typescript": "2.4.2",
+    "zone.js": "0.8.18"
   }
 }

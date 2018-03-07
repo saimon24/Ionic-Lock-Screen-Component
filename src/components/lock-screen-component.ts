@@ -1,8 +1,8 @@
 /**
  * [Auto Generated] Created by :Carson. Chen
  */
-import {Component} from '@angular/core';
-import {Events, NavParams, NavController} from 'ionic-angular';
+import { Component } from '@angular/core';
+import { Events, NavParams, NavController } from 'ionic-angular';
 
 /* HTML Template */
 const LOCK_SCREEN_TEMPLATE = `
